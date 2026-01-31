@@ -1,0 +1,352 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "name": "Simple Sentence Translation",
+    "input": "Api denata yamu.",
+    "expected": "අපි දැනට යමු.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Sentence structures - Simple sentences",
+    "description": "Verifies conversion of a simple subject-verb sentence."
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "name": "Compound Sentence Translation",
+    "input": "Mata salli naha namuth mama sathutin.",
+    "expected": "මට සල්ලි නැහැ නමුත් මම සතුටින්.",
+    "type": "Positive",
+    "length": "M",
+    "category": "Sentence structures - Compound sentences",
+    "description": "Verifies conversion of two ideas joined by a conjunction."
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "name": "Complex Sentence Translation",
+    "input": "Oya paadam keruwoth pass weyi.",
+    "expected": "ඔයා පාඩම් කෙරුවොත් පාස් වෙයි.",
+    "type": "Positive",
+    "length": "M",
+    "category": "Sentence structures - Complex sentences",
+    "description": "Verifies conversion of a conditional sentence."
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "name": "Interrogative Form",
+    "input": "Oba kawada enawada?",
+    "expected": "ඔබ කවදා එනවද?",
+    "type": "Positive",
+    "length": "S",
+    "category": "Interrogative and imperative forms - Interrogative",
+    "description": "Verifies conversion of a question."
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "name": "Imperative Form",
+    "input": "Wahaama meka denna.",
+    "expected": "වහාම මේක දෙන්න.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Interrogative and imperative forms - Imperative",
+    "description": "Verifies conversion of a command."
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "name": "Positive Sentence Form",
+    "input": "Ma langa pothak thibenawa.",
+    "expected": "මා ළඟ පොතක් තිබෙනවා.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Positive vs negative sentence forms - Positive",
+    "description": "Verifies conversion of a positive statement."
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "name": "Negative Sentence Form",
+    "input": "Ma langa pothak naha.",
+    "expected": "මා ළඟ පොතක් නැහැ.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Positive vs negative sentence forms - Negative",
+    "description": "Verifies conversion of a negative statement."
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "name": "Greeting",
+    "input": "Suba dawasak.",
+    "expected": "සුබ දවසක්.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Common greetings, requests, and responses - Greetings",
+    "description": "Verifies conversion of a common greeting."
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "name": "Request",
+    "input": "Mata pan ekak denna.",
+    "expected": "මට පාන් එකක් දෙන්න.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Common greetings, requests, and responses - Requests",
+    "description": "Verifies conversion of a request."
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "name": "Polite Phrasing",
+    "input": "Theruwan saranai.",
+    "expected": "තෙරුවන් සරණයි.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Polite vs informal phrasing - Polite",
+    "description": "Verifies conversion of a polite phrase."
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "name": "Informal Phrasing",
+    "input": "Mokada ban karanne?",
+    "expected": "මොකද බන් කරන්නේ?",
+    "type": "Positive",
+    "length": "S",
+    "category": "Polite vs informal phrasing - Informal",
+    "description": "Verifies conversion of an informal phrase."
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "name": "Day-to-day Expression",
+    "input": "Bus eka awa.",
+    "expected": "බස් එක ආවා.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Frequently used day-to-day expressions",
+    "description": "Verifies conversion of a daily expression."
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "name": "Multi-word Expression",
+    "input": "Budu ammo.",
+    "expected": "බුදු අම්මෝ.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Multi-word expressions and frequent collocations",
+    "description": "Verifies conversion of a common collocation."
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "name": "Segmented Words",
+    "input": "Gedara yanna.",
+    "expected": "ගෙදර යන්න.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Joined vs segmented word variations - Segmented",
+    "description": "Verifies conversion of properly spaced words."
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "name": "Joined Words",
+    "input": "Gedarayanna.",
+    "expected": "ගෙදරයන්න.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Joined vs segmented word variations - Joined",
+    "description": "Verifies conversion of joined words."
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "name": "Repeated Words",
+    "input": "Wara wara.",
+    "expected": "වර වර.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Repeated word expressions",
+    "description": "Verifies conversion of emphatic repetition."
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "name": "Past Tense",
+    "input": "Mama giya.",
+    "expected": "මම ගියා.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Tense variations - Past",
+    "description": "Verifies conversion of past tense."
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "name": "Present Tense",
+    "input": "Mama yanawa.",
+    "expected": "මම යනවා.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Tense variations - Present",
+    "description": "Verifies conversion of present tense."
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "name": "Future Tense",
+    "input": "Mama yannam.",
+    "expected": "මම යන්නම්.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Tense variations - Future",
+    "description": "Verifies conversion of future tense."
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "name": "Mixed Language",
+    "input": "Mata 'Laptop' eka oni.",
+    "expected": "මට 'Laptop' එක ඕනි.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Mixed language content - English technical terms",
+    "description": "Verifies handling of English terms."
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "name": "Abbreviations",
+    "input": "Mage 'ID' eka.",
+    "expected": "මගේ 'ID' එක.",
+    "type": "Positive",
+    "length": "S",
+    "category": "English abbreviations",
+    "description": "Verifies handling of abbreviations."
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "name": "Currency and Numbers",
+    "input": "Rs. 500 k denna.",
+    "expected": "Rs. 500 ක් දෙන්න.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Currency, time formats, dates",
+    "description": "Verifies handling of currency and numbers."
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "name": "Formatting - Spaces",
+    "input": "     Api   yamu.",
+    "expected": "     අපි   යමු.",
+    "type": "Positive",
+    "length": "S",
+    "category": "Multiple spaces, line breaks",
+    "description": "Verifies preservation of extra whitespace."
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "name": "Long Paragraph",
+    "input": "Maa visin me liyana lada lipiya sathyayak bava ma saththya karanawa. Mehi kisidu boruwak natha. Oba visin meya kiyawiya yuthuyi.",
+    "expected": "මා විසින් මේ ලියන ලද ලිපිය සත්‍යයක් බව මා සත්‍යය කරනවා. මෙහි කිසිදු බොරුවක් නැත. ඔබ විසින් මෙය කියවිය යුතුයි.",
+    "type": "Positive",
+    "length": "M",
+    "category": "Input length variation - Long",
+    "description": "Verifies handling of longer text input."
+  },
+  {
+    "id": "Neg_Fun_0001",
+    "name": "Typo in Input",
+    "input": "Mma yanna",
+    "expected": "ම්ම යන්න",
+    "type": "Negative",
+    "length": "S",
+    "category": "Typographical error handling",
+    "description": "Robustness check for misspelled words."
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "name": "Ambiguous Phonetics",
+    "input": "Naa",
+    "expected": "නා",
+    "type": "Negative",
+    "length": "S",
+    "category": "Ambiguity handling",
+    "description": "Checks how system resolves ambiguous phonetic inputs."
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "name": "Exaggerated Word Length",
+    "input": "Digaaaaaatama",
+    "expected": "දිගාආආආආටම",
+    "type": "Negative",
+    "length": "S",
+    "category": "Robustness validation",
+    "description": "Checks handling of repeated characters."
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "name": "Formatting with Newlines",
+    "input": "Api\nyamu",
+    "expected": "අපි\nයමු",
+    "type": "Negative",
+    "length": "S",
+    "category": "Formatting (spaces / line breaks)",
+    "description": "Checks preservation of line breaks."
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "name": "Mixed Script Start",
+    "input": "Mama going.",
+    "expected": "මම going.",
+    "type": "Negative",
+    "length": "S",
+    "category": "Mixed Singlish + English",
+    "description": "Checks handling of English words mixed in."
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "name": "Unusual Character Z",
+    "input": "Pizza",
+    "expected": "පිස්සා",
+    "type": "Negative",
+    "length": "S",
+    "category": "Robustness validation",
+    "description": "Checks handling of 'z' which can be ambiguous."
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "name": "Phonetic Mismatch",
+    "input": "Skool",
+    "expected": "ස්කූල්",
+    "type": "Negative",
+    "length": "S",
+    "category": "Robustness validation",
+    "description": "Checks literal transliteration of English phonetics."
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "name": "Special Characters",
+    "input": "Mk??",
+    "expected": "ම්ක්??",
+    "type": "Negative",
+    "length": "S",
+    "category": "Punctuation / numbers",
+    "description": "Checks handling of repeated punctuation."
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "name": "Numeric Mixed",
+    "input": "1k denna",
+    "expected": "1ක් දෙන්න",
+    "type": "Negative",
+    "length": "S",
+    "category": "Punctuation / numbers",
+    "description": "Checks handling of numbers mixed with letters."
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "name": "Code Injection",
+    "input": "<script>",
+    "expected": "<ස්cරිප්ට්>",
+    "type": "Negative",
+    "length": "S",
+    "category": "Robustness validation",
+    "description": "Checks handling of code-like syntax."
+  },
+  {
+    "id": "Pos_UI_0001",
+    "name": "Real-time Update",
+    "input": "Mama",
+    "expected": "මම",
+    "type": "UI",
+    "length": "S",
+    "category": "Real-time output update behavior",
+    "description": "Verifies that output updates in real-time as user types."
+  }
+]

@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+playwright-report/
+.DS_Store
+IT23699908/
+IT23699908.zip
+IT23699908.xlsx
